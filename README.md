@@ -8,7 +8,4 @@ LibMS (Library Management System) is a C and HTML/CSS application that combines 
 GCC (compiler), gedit (text editor), apache (web server), CGI-BIN (for web interfacing), C (back-end language), HTML/CSS (front-end language).
 
 # Members
-Muazzam Ali Kazmi (me)
-Umaid Zaffar
-Muhammad Omer
-Hamza Zakir
+Muazzam Ali Kazmi (me), Umaid Zaffar, Muhammad Omer, Hamza Zakir
