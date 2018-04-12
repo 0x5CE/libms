@@ -1,0 +1,64 @@
+input[type=text], input[type=number], input[type=password], select {
+	width: 100%;
+	padding: 10px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+
+input[type=submit] {
+	width: 100%;
+	background-color: #5ea8d1;
+	color: white;
+	border-radius: 4px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	padding: 12px 20px;
+}
+
+input[type=submit]:hover {
+	background-color: #4b87a8;
+}
+
+div {
+	width: 400px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", cursive, sans-serif;
+
+#table1 {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#table1 td, #table1 th {
+	border 1px sold #ddd;
+	padding: 8px;
+}
+
+#table1 tr:nth-child(even) {
+background-color: #f0f0f0;
+}
+
+#table1 th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #5ea8d1;
+	color: white;
+}
+
+#table1 tr:hover {
+background-color: #ddd;
+}
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>
+Library Management System | FoCP Project
+</title>
+
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+</head>
+
+<body>
+
+<div>
+<form method="post" action="/cgi-bin/libmsadd">
+
+<label>CMS ID</label>
+<input type="number" name="scmsid" maxlength=90 size="25" required>
+
+<label>Name</label>
+<input type="text" name="sname" maxlength=90 SIZE="25" required>
+
+<label>Batch</label>
+<select name="sbatch">
+  <option value="2017">2017</option>
+  <option value="2016">2016</option>
+  <option value="2015">2015</option>
+  <option value="2014">2014</option>
+</select>
+
+<label>Department</label>
+<select name="sdepartment">
+  <option value="CS">CS</option>
+  <option value="SE">SE</option>
+  <option value="EE">EE</option>
+</select>
+
+<label>Book 1</label>
+<input type="text" name="sbook1" maxlength=90 SIZE="25">
+
+<label>Book 2</label>
+<input type="text" name="sbook2" maxlength=90 SIZE="25">
+
+<label>Book 3</label>
+<input type="text" name="sbook3" maxlength=90 SIZE="25">
+
+<label>Password</label>
+<input type="password" name="spass" maxlength=90 SIZE="25" required>
+
+<p><input type="submit" name="submit" value="Create"></p>
+
+</form>
+</div>
+
+</body>
+
+</html>
